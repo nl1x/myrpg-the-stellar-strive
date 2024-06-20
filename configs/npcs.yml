@@ -1,0 +1,108 @@
+# NPCs
+npcs:
+  # Planet 1
+  # Fisherman, at the mid
+  - 0:
+    name: Jean-Yanis
+    asset: assets/npc/jean_yanis_idle.png
+    planet: 0
+    position:
+      x: 640
+      y: 400
+      indoor: 0
+    actions:
+      - speak Thou remindst me of mine young days...
+#      - speak I once was the meetest fishe'man on this planet.
+#      - speak Thou seem hungry.
+      - hp max
+      - give 4 4
+      # 4 fishes
+  # At the top left corner. TODO: Replace the chest by the NPC.
+  - 1:
+    name: Nathan
+    asset: assets/npc/knight_idle.png
+    planet: 0
+    position:
+      x: 700
+      y: 400
+      indoor: 0
+    actions:
+      - speak Hinn... Thou shall surely want this...
+      - give 25 1
+#  - 2:
+#    name: Armorer
+#    asset: ...
+#    planet: 0
+#    actions:
+#      - speak I hast a blade for thou...
+#      - speak To obtain it, thou wanst to grant me 4 fishes and a steak so I can feed myself.
+#  - 3:
+#    name: Armorer
+#    asset: ...
+#    planet: 0
+#    actions:
+#      - speak Good boi. Here.
+#      - give 18 1
+#      # 1 sword
+#  # Planet 2
+#  # Next to the cave's entrance
+#  - 4:
+#    name: ???
+#    asset: ...
+#    planet: 1
+#    actions:
+#      - speak Don'let tha cave fool ya. Cheerio.
+#      - hp max
+#  # Top left lone green island
+#  - 5:
+#    name: Hugo
+#    asset: ...
+#    planet: 1*
+#    actions:
+#      - speak Laisse-moi finir le système d'inventaire, stp.
+#      - give 12 1
+#      # 1 stun seed (dees nuts haha)
+#  # Green island, doesn't matter where
+#  - 6:
+#    name: Jayson
+#    asset: ...
+#    planet: 1
+#    actions:
+#      - speak I haven't seen youse around, are ya lost or something?
+#  # Green island, doesn't matter where x2
+#  - 7:
+#    name: Jayson
+#    asset: ...
+#    planet: 1
+#    actions:
+#      - speak AUSSIE AUSSIE AUSSIE! OI OI OI!
+#      - give 28 2
+#      # 2 aussie potions
+#  # Yellow island, top of the green patch
+#  - 8:
+#    name: Omaba
+#    asset: ...
+#    planet: 1
+#    actions:
+#      - speak The sand makes it harder to see...
+#      - speak Isn't it tha case fo' ya?
+#  # Yellow island, bottom of the green patch
+#  - 9:
+#    name: Sbeve
+#    asset: ...
+#    planet: 1
+#    actions:
+#      - speak Ya can have ma bottle o' rhum.
+#      - speak Hope ya're gonnabe al'ight out there.
+#      - give 24 1
+#      # 1 empty bottle.
+#  # Cave, bottom right of the main hall
+#  - 10:
+#    name: Miolneer
+#    asset: ...
+#    planet: 1
+#    actions:
+#      - speak Dis cave's like a long and lone quest.
+#      - speak Prepare ya'self.
+#      - give 20 1
+#      # 1 hammer

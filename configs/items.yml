@@ -1,0 +1,230 @@
+items:
+  # Food
+  - 0:
+    name: Sushi
+    description: Fresh sushi
+    sprite: assets/items/food/sushi.png
+    type: FOOD
+    heal: 6
+    max_stack: 8
+
+  - 1:
+    name: Moisted Sushi
+    description: Expiration date 24/05/2024
+    sprite: assets/items/food/moisted_sushi.png
+    type: FOOD
+    heal: -6
+    max_stack: 8
+
+  - 2:
+    name: Beef
+    description: Good rib steak
+    sprite: assets/items/food/beef.png
+    type: FOOD
+    heal: 10
+    max_stack: 4
+
+  - 3:
+    name: Calamari
+    description: Fried calamari
+    sprite: assets/items/food/calamari.png
+    type: FOOD
+    heal: 8
+    max_stack: 4
+
+  - 4:
+    name: Fish
+    description: Freshly fished fish
+    sprite: assets/items/food/fish.png
+    type: FOOD
+    heal: 4
+    max_stack: 12
+
+  - 5:
+    name: Fortune Cookie
+    description: Cookie with fortune
+    sprite: assets/items/food/fortune_cookie.png
+    type: FOOD
+    heal: 12
+    max_stack: 1
+
+  - 6:
+    name: Honey
+    description: Sweet honey
+    sprite: assets/items/food/honey.png
+    type: FOOD
+    heal: 6
+    max_stack: 4
+
+  - 7:
+    name: Noodle
+    description: Bowl of noodles
+    sprite: assets/items/food/noodle.png
+    type: FOOD
+    heal: 10
+    max_stack: 1
+
+  - 8:
+    name: Nut
+    description: haha funi xd
+    sprite: assets/items/food/nut.png
+    type: FOOD
+    heal: 2
+    max_stack: 16
+
+  - 9:
+    name: Octopus
+    description: Fresh octopus
+    sprite: assets/items/food/octopus.png
+    type: FOOD
+    heal: 6
+    max_stack: 8
+
+  - 10:
+    name: Onigiri
+    description: Rice ball
+    sprite: assets/items/food/onigiri.png
+    type: FOOD
+    heal: 4
+    max_stack: 16
+
+  - 11:
+    name: Seed
+    description: Plant seed
+    sprite: assets/items/food/seed.png
+    type: FOOD
+    heal: 2
+    max_stack: 16
+
+  - 12:
+    name: Big Seed
+    description: Large seed
+    sprite: assets/items/food/big_seed.png
+    type: FOOD
+    heal: 4
+    max_stack: 12
+
+  - 13:
+    name: Large Seed
+    description: Very large seed
+    sprite: assets/items/food/large_seed.png
+    type: FOOD
+    heal: 6
+    max_stack: 8
+
+  - 14:
+    name: Shrimp
+    description: Shrimp (with shell)
+    sprite: assets/items/food/shrimp.png
+    type: FOOD
+    heal: 2
+    max_stack: 16
+
+  - 15:
+    name: Tea Leaf
+    description: Fresh tea leaves
+    sprite: assets/items/food/tea_leaf.png
+    type: FOOD
+    heal: 1
+    max_stack: 16
+
+  - 16:
+    name: Yakitori
+    description: Grilled chicken
+    sprite: assets/items/food/yakitori.png
+    type: FOOD
+    heal: 12
+    max_stack: 4
+
+  # Weapons
+  - 17:
+    name: Axe
+    description: Sharp and powerful
+    sprite: assets/items/weapons/axe.png
+    type: WEAPON
+    damage: 15
+    damage_critical: 22
+    durability: 160
+
+  - 18:
+    name: Sword
+    description: A sharp blade
+    sprite: assets/items/weapons/sword.png
+    type: WEAPON
+    damage: 22
+    damage_critical: 34
+    durability: 200
+
+  - 19:
+    name: Fork
+    description: For eating... or fighting
+    sprite: assets/items/weapons/fork.png
+    type: WEAPON
+    damage: 10
+    damage_critical: 14
+    durability: 20
+
+  - 20:
+    name: Hammer
+    description: Heavy and strong
+    sprite: assets/items/weapons/hammer.png
+    type: WEAPON
+    damage: 14
+    damage_critical: 36
+    durability: 120
+
+  - 21:
+    name: Katana
+    description: Swift and deadly
+    sprite: assets/items/weapons/katana.png
+    type: WEAPON
+    damage: 36
+    damage_critical: 54
+    durability: 30
+
+  - 22:
+    name: Pickaxe
+    description: Good for mining and fighting
+    sprite: assets/items/weapons/pickaxe.png
+    type: WEAPON
+    damage: 8
+    damage_critical: 18
+    durability: 240
+
+  - 23:
+    name: Stick
+    description: Simple but effective
+    sprite: assets/items/weapons/stick.png
+    type: WEAPON
+    damage: 1
+    damage_critical: 3
+    durability: 8
+
+  # Potions
+  - 24:
+    name: Empty potion
+    description: There's nothing in here
+    sprite: assets/items/potions/empty_pot.png
+    type: POTION
+    action:
+
+  - 25:
+    name: Heal potion
+    description: Gives you full health instantly
+    sprite: assets/items/potions/heal_pot.png
+    type: POTION
+    action: hp max
+
+  - 26:
+    name: Speed potion
+    description: Makes you walk faster for 30 seconds
+    sprite: assets/items/potions/speed_pot.png
+    type: POTION
+    action: effect speed 30
+
+  - 27:
+    name: Strength potion
+    description: Doubles your damages for 30 seconds
+    sprite: assets/items/potions/strength_pot.png
+    type: POTION
+    action: effect strength 30
