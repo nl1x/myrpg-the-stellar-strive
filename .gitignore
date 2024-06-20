@@ -1,0 +1,11 @@
+my_rpg
+*.o
+*.a
+*.log
+*tmp*
+vgcore*
+*.gcno
+*.gcda
+.idea
+bin
+.vscode
